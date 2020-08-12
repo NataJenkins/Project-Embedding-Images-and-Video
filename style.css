@@ -1,9 +1,30 @@
+.container{
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 40px auto 40px;
+    grid-gap: 3px;
+    grid-template-areas: 
+    "n n n n n n n n n n n n"
+    "v v v v v v v v v s s s"
+    ;
+}
 .navbar{
+    background-color: antiquewhite;
+    grid-area: n;
 
 }
 .video{
+    padding-top: 15px;
+    text-align:center;
+    background-color: burlywood;
+    grid-area: v;
+    grid-row: 2/200;
 
 }
 .sidebar{
-    
+    background-color: cadetblue;
+    grid-area: s;
+    grid-row: 2/200;
+
 }
