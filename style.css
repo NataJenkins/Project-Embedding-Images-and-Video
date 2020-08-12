@@ -12,8 +12,27 @@
 .navbar{
     background-color: antiquewhite;
     grid-area: n;
-
+    display: flex;
+    justify-content: space-between;
 }
+.yt-logo{
+    width: 100px;
+}
+.icon{
+    font-size: 30px;
+}
+.search-bar{
+    margin-top: 10px;
+}
+.upload-sign{
+    margin-right: 15px;
+    padding: 10px;
+}
+#menu-icon{
+    margin-bottom: 15px;
+}
+
+
 .video{
     padding-top: 15px;
     text-align:center;
