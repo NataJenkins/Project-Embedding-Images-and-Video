@@ -1,49 +1,98 @@
-.container{
+.container {
     height: 100%;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: 40px auto 40px;
     grid-gap: 3px;
-    grid-template-areas: 
-    "n n n n n n n n n n n n"
-    "v v v v v v v v v s s s"
+    grid-template-areas:
+        "n n n n n n n n n n n n"
+        "v v v v v v v v v s s s"
     ;
 }
-.navbar{
+
+.navbar {
     background-color: antiquewhite;
     grid-area: n;
     display: flex;
     justify-content: space-between;
+
 }
-.yt-logo{
+
+input {
+    width: 200%;
+    margin: 0;
+
+}
+
+button {
+    margin: 0;
+}
+
+.yt-logo {
     width: 100px;
 }
-.icon{
+
+.icon {
     font-size: 30px;
 }
-.search-bar{
+
+.search-bar {
     margin-top: 10px;
+    size: 200%;
+    display: inline;
+    white-space: nowrap;
 }
-.upload-sign{
+
+.upload-sign {
     margin-right: 15px;
     padding: 10px;
 }
-#menu-icon{
+
+#menu-icon {
     margin-bottom: 15px;
 }
 
 
-.video{
+.video {
     padding-top: 15px;
-    text-align:center;
+    text-align: center;
     background-color: burlywood;
     grid-area: v;
     grid-row: 2/200;
 
 }
-.sidebar{
+
+
+
+.sidebar {
     background-color: cadetblue;
     grid-area: s;
     grid-row: 2/200;
 
+}
+
+.suggested {
+    display: inline-block;
+    position: relative;
+}
+
+.first {
+    margin-bottom: 15px;
+}
+
+.suggestion {
+    width: 50%;
+    margin: 5px;
+
+}
+
+.title {
+    margin-top: 5px;
+    top: 0;
+}
+
+.views {
+    position: relative;
+    bottom: 0%;
+    color: gray;
 }
