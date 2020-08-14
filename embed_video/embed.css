@@ -1,0 +1,80 @@
+ul{
+    display: flex;
+    padding-left: 0px;
+}
+.icon1{
+    padding-left: 380px;
+}
+ul li{
+    list-style: none;
+
+}
+#number{
+    font-size: 14px; 
+}
+
+i{
+    color: #606060;
+
+}
+#count{
+    color: #606060;
+}
+.container2 {
+    display: grid;
+    grid-gap:3px;
+    grid-template-columns: 110px 200px 550px;
+    grid-auto-rows: 100px;
+    justify-content: start;  
+    }
+    .img{
+        margin-left: 10px;
+        background-color: burlywood;
+        grid-column: 1;
+        
+    }
+    .details{
+        border-radius: 50%;
+    }
+    .fb{
+        background-color: darkcyan;
+        grid-column: 2;
+        margin:0px;
+        padding: 0px;
+    }
+    h4{
+        margin: 0px;
+        padding-top: 25px;
+        
+    }
+    #subscribers{
+        color: #606060;
+        font-weight: bold;
+    }
+    .button{
+        background-color: darksalmon;
+        grid-column: 3;
+        text-align: right;
+        padding-top: 25px;
+        padding-right: 10px;
+    }
+    #subsribe{
+        background-color: red;
+        color: white;
+        font-size: 16px;
+        font-weight: bold;
+        padding: 10px;
+        border-radius: 2px;
+    }
+    .container3 {
+        display: grid;
+        grid-template-columns: 550px;
+        grid-auto-rows: 500px; 
+        }
+    #text{
+        margin-left: 110px;
+        white-space: pre-wrap;
+    }
+    #showMore{
+       padding: 0px;
+    }

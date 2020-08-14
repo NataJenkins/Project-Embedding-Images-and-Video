@@ -6,8 +6,7 @@
     grid-gap: 3px;
     grid-template-areas: 
     "n n n n n n n n n n n n"
-    "v v v v v v v v v s s s"
-    ;
+    "v v v v v v v v v s s s";
 }
 .navbar{
     background-color: antiquewhite;
@@ -19,12 +18,49 @@
     text-align:center;
     background-color: burlywood;
     grid-area: v;
-    grid-row: 2/200;
+    grid-row: 2/10;
 
 }
 .sidebar{
     background-color: cadetblue;
     grid-area: s;
     grid-row: 2/200;
+
+}
+
+.wrapper{
+    background-color: rosybrown;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(1, 70px);
+    grid-template-areas: "vd i";
+}
+#video-details{
+grid-area: vd;
+}
+#count{
+    font-size: 1.2rem;
+    color: rgb(17,  17, 17, 0.6);
+    padding: 12px 0;
+}
+
+#icons{
+grid-area: i;
+display: grid;
+grid: 1fr / repeat(5, 1fr);
+padding: 12px 0;
+}
+.icon{
+    display: grid;
+    color: rgb(17, 17, 17, 0.6);
+}
+.icon > img{
+    width: 24px;
+    height:24px;
+    cursor:pointer;
+}
+.icon > p{
+    font-size: 1.2rem;
 
 }
