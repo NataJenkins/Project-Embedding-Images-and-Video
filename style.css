@@ -56,7 +56,6 @@ button {
 
 .video {
   padding-top: 15px;
-  text-align: center;
   grid-area: v;
   grid-row: 2/200;
 }
@@ -92,7 +91,7 @@ button {
 }
 
 .wrapper {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Roboto, Arial, Sans Serif, Noto, YT Sans, Roboto Mono";
   font-weight: 500;
   margin-left: 15%;
 }
@@ -100,6 +99,7 @@ button {
 .container1 {
   display: flex;
   color: #606060;
+  justify-content: space-between;
 }
 
 .list-group a {
@@ -108,7 +108,6 @@ button {
 }
 
 .list-group {
-  margin-left: 350px;
   text-align: justify;
 }
 
@@ -125,9 +124,9 @@ button {
 
 .container2 {
   display: grid;
-  grid-gap: 3px;
   grid-template-columns: 90px 200px 550px;
   grid-auto-rows: 70px;
+  margin-bottom: 20px;
 }
 
 .img {
@@ -165,7 +164,7 @@ h4 {
 }
 
 #subsribe {
-  margin-right: 10px;
+  margin-right: 1%;
   background-color: red;
   color: white;
   font-size: 16px;
@@ -176,26 +175,22 @@ h4 {
 
 .container3 {
   display: grid;
-  grid-template-columns: 550px;
-  grid-auto-rows: 50px;
+  grid-template-columns: 580px;
+  grid-auto-rows: 40px;
   margin-left: 90px;
 }
 
 #text {
-  white-space: pre-wrap;
+  margin-top: auto;
   text-align: justify;
   font-size: 16px;
 }
 
 #showMore {
-  background-color: white;
+
   font-weight: bold;
-  width: 110px;
-  margin-top: 25px;
+  margin-top: 9%;
   color: #606060;
-  border: none;
-  text-align: justify;
-  padding-left: 0px;
 }
 
 .sortComments {
@@ -221,11 +216,29 @@ a {
 }
 
 .container4 {
-  display: grid;
   font-size: 13px;
-  grid-auto-columns: 80px 500px;
+  grid-auto-columns: 80px 800px;
   grid-auto-rows: 50px 50px;
   grid-gap: 5px;
+}
+
+.button {
+  display: flex;
+  padding-left: 90%;
+
+}
+
+.addcomments {
+  display: flex;
+  margin-right: 50%;
+}
+
+#line {
+  width: 800px;
+}
+
+#line1 {
+  width: 820px;
 }
 
 #userImage {
@@ -237,24 +250,27 @@ a {
 
 #publicComment {
   grid-column: 2;
-  border-bottom: 2px solid black;
+  margin-left: 5px;
   display: inline-block;
-  color: #606060;
+  color: #606060
 }
 
 #comment {
   width: 90px;
   text-align: center;
-  margin-left: 400px;
   color: white;
-  font-weight: bold;
+  font-weight: 500;
+  font-size: medium;
   border-style: none;
+  background-color: #606060;
+  padding: 5px;
 }
 
 #cancel {
   width: 80px;
   text-align: center;
-  margin-left: 390px;
   border-style: none;
   background-color: white;
+  font-size: medium;
+
 }
