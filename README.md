@@ -2,7 +2,7 @@
 
 > HTML/CSS Youtube Microverse Project
 
-![screenshot](./app_screenshot.png)
+![screenshot](./images/Screenshot_7.jpg)
 
 
 ## Built With
@@ -12,7 +12,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://natajenkins.github.io/Project-Embedding-Images-and-Video/.)
 
 ## Authors
 
