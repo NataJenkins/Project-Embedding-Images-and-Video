@@ -1,28 +1,229 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
-    <title> YouTube’s video player page </title>
-    
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/7bc3c221d9.js" crossorigin="anonymous"></script>
+    <title>Practice</title>
 </head>
 <body>
-
-<div class="container">
-    <div class="navbar"> Navbar</div>
-
-    <div class="video">
-        <iframe width="836px" height="470px" src="https://www.youtube.com/embed/lJIrF4YjHfQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-        </iframe>>
+                    <!--NAVBAR-->
+<div class="navbar">
+    <div class="initial">
+    <img src="images/line.png" alt="line" >
+    <img src="images/YouTube.png" alt="line">
+</div>
+<div class="search">
+        <input type="text"  placeholder="Search.." > 
+    <div class="searchbtn">
+        <i class="fas fa-search"></i>
     </div>
 
-    <div class="sidebar">
-    <ul>
-        <li><a href="/watch?v=3RjQznt-8kE&amplist=PL4cUxeGkcC9goXbgTDQ0n_4TBzOO0ocPR"></a></li>
-    </ul>
-
-    </div>
 </div>
 
+<div class="end">
+    <img src="images/camera.png" alt="line">
+    <img src="images/grid.png" alt="line">
+    <img src="images/bell.png" alt="line">
+</div>
+</div>
+
+                    <!--VIDEO PLAYER-->
+<div class="container"> 
+
+
+    <div class="mainContent">
+            <div class="video">
+                <iframe width="836" height="418" src="https://www.youtube.com/embed/dO3e_-uDgCo?controls=0"
+                    frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+
+                <section id="video-details">
+                    <header>
+                        <h2 id="videTitle">Fricassee de champignons, mushrooms with herbs and garlic</h2>
+                    </header>
+                </section>
+            </div>
+
+            <div class="container1">
+                <div id="count">7,146 views <span id="dot">.</span>  Aug 12, 2020
+            </div>
+
+            <div class="list-group">
+                    <a class="list-group-item" href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true" fa-lg></i>&nbsp;
+                        100</a> &nbsp;
+                    <a class="list-group-item" href="#"><i class="fa fa-thumbs-o-down" aria-hidden="true"
+                            fa-lg></i>&nbsp; 0</a>&nbsp;
+                    <a class="list-group-item" href="#"><i class="fa fa-share" aria-hidden="true"></i>&nbsp;
+                        SHARE</a>&nbsp;
+                    <a class="list-group-item" href="#"><i class="fa fa-floppy-o" aria-hidden="true"></i>&nbsp;
+                        SAVE</a>&nbsp;
+                    <a class="list-group-item" href="#"><i class="fa fa-ellipsis-h" aria-hidden="true"></i></a>
+            </div>
+        </div>
+        <hr id="line1">
+
+        <div class='container2'>
+            
+                <div class="img">
+                    <img src="images/image.png" alt="Youtube_Profile" class="details">
+                </div>
+
+                <div class="fb">
+                    <h4>Famous Youtuber</h4>
+                    <div id="subscribers"> 1Mn Subscribers</div>
+                </div>
+
+                <div class="button1">
+                    <button id="subsribe">SUBSCRIBE</button>
+                </div>
+
+                <div class="container3">
+                    <p id="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius architecto quod, dolore sapiente veritatis necessitatibus quae corrupti quos hic consectetur voluptates eveniet molestiae tempore praesentium, minima cumque accusantium quia. Pariatur. <br> <br>
+                    <a href="#"id="showMore">SHOW MORE</a>
+                    </p>
+                </div>
+            
+        </div>
+        <hr id="line1">
+
+            <div class="sortComments">
+                <p id="usersComments"> 117 Comments</p>
+                <a class="list-group-item" href="#"><i class="fa fa-sort-amount-desc" aria-hidden="true"
+                        fa-lg></i>&nbsp; <span id="SortBy">SORT BY</span> </a>
+            </div>
+
+
+            <div class="container4">
+                <div class="addcomments">
+                    <img id="userImage" src="images/image.png" alt="user comment">
+                    <h4 id="publicComment">Add a public comment....
+                        <hr id="line2">
+                    </h4>
+                </div>
+                   
+                <div class="button">
+                    <button type="button" id="cancel">CANCEL</button>
+                    <button type="button" id="comment">COMMENT</button>
+                </div>
+            </div>
+        </div>
+   
+
+                            <!--SIDEBAR-->
+<div class="sidebar">
+
+            <div class="icons">
+                <div id="upNext">Up next</div>
+                <div id="autoplay">AUTOPLAY
+                <img src="images/toggle-on-solid.svg" alt="toggle-on" width="46px" height="22px" id="toggle_on"> </div>
+            </div>
+
+    <div class="video_container1">
+            <div class="video_images"> 
+                <img src="images/img1.png" alt="YouTubeImage" id="YouTubeImage" style="width:168px;height:95px;">
+            </div>
+
+            <div class="video_description">
+                <p id="video_title">COCIDO MADRILEÑO BY SPANISH COOKING</p> 
+                <p id="views">Food Wishes  <br> 13,334 views.5 years ago
+                </p>
+            </div>
+            
+    </div>
+    <hr>
+
+    <div class="video_container2">
+            <div class="video_images"> 
+                <img src="images/Tutorial1.png" alt="YouTubeImage" id="YouTubeImage" style="width:168px;height:95px;">
+            </div>
+
+            <div class="video_description">
+                <p id="video_title">Learn CSS Grid in 20 Minutes</p> 
+                <p id="views">codeSTACKr <br> 56,514 views.Aug 3,2019
+                </p>
+            </div>
+    </div>
+
+    <div class="video_container2">
+            <div class="video_images"> 
+                <img src="images/Tutorial2.png" alt="YouTubeImage" id="YouTubeImage" style="width:168px;height:95px;">
+            </div>
+
+            <div class="video_description">
+                <p id="video_title">Basics of CSS Grid: The Big Picture</p> 
+                <p id="views">Layout Land  <br> 126,052 views.Feb 13, 2018
+                </p>
+            </div>
+    </div>
+
+    <div class="video_container2">
+            <div class="video_images"> 
+                <img src="images/Tutorial3.png" alt="YouTubeImage" id="YouTubeImage" style="width:168px;height:95px;">
+            </div>
+
+            <div class="video_description">
+                <p id="video_title">
+                    How to Create Website Layouts Using CSS Grid </p> 
+                <p id="views">Dani Krossing  <br> 745,748 views.Jul 30, 2017
+                </p>
+            </div>
+    </div>
+
+    <div class="video_container2">
+            <div class="video_images"> 
+                <img src="images/Tutorial4.png" alt="YouTubeImage" id="YouTubeImage" style="width:168px;height:95px;">
+            </div>
+
+            <div class="video_description">
+                <p id="video_title">CSS Positioning Tutorial for Beginners</p> 
+                <p id="views">Food Wishes  <br> 320,975 views.Dec 4, 2017
+                </p>
+            </div>
+    </div>
+
+    <div class="video_container2">
+            <div class="video_images"> 
+                <img src="images/Tutorial5.png" alt="YouTubeImage" id="YouTubeImage" style="width:168px;height:95px;">
+            </div>
+
+            <div class="video_description">
+                <p id="video_title">Web Development Roadmap 2020 {Start Now!}</p> 
+                <p id="views">codeSTACKr  <br> 550,984 views.Nov 29,2019
+                </p>
+            </div>
+    </div>
+
+    <div class="video_container2">
+            <div class="video_images"> 
+                <img src="images/Tutorial6.png" alt="YouTubeImage" id="YouTubeImage" style="width:168px;height:95px;">
+            </div>
+
+            <div class="video_description">
+                <p id="video_title">5 Projects You Can Build In A Week </p> 
+                <p id="views">Web Dev Simplified  <br> 200,778 views.Jan 21,2020
+                </p>
+            </div>
+    </div>
+
+    <div class="video_container2">
+        <div class="video_images"> 
+            <img src="images/Tutorial7.png" alt="YouTubeImage" id="YouTubeImage" style="width:168px;height:95px;">
+        </div>
+
+        <div class="video_description">
+            <p id="video_title">CSS Grid Tutorial | Responsive Crash Course</p> 
+            <p id="views">FollowAndrew <br> 75,020,334 views.Feb 23,2018
+            </p>
+        </div>
+    </div>
+
+
+</div>
+
+
+</div>
 </body>
 </html>
