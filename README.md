@@ -12,7 +12,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://natajenkins.github.io/Project-Embedding-Images-and-Video/.)
+[Live Demo Link](https://natajenkins.github.io/Project-Embedding-Images-and-Video/)
 
 ## Authors
 
