@@ -2,7 +2,7 @@
 
 > HTML/CSS Youtube Microverse Project
 
-![screenshot](./images/Screenshot_7.jpg)
+![screenshot](./images/Preview.jpg)
 
 
 ## Built With
