@@ -1,37 +1,49 @@
-## Welcome to GitHub Pages
+# Youtube Clone
 
-You can use the [editor on GitHub](https://github.com/NataJenkins/Project-Embedding-Images-and-Video/edit/youTubePageCopy/README.md) to maintain and preview the content for your website in Markdown files.
+> HTML/CSS Youtube Microverse Project
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+![screenshot](./images/Screenshot_7.jpg)
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Built With
 
-```markdown
-Syntax highlighted code block
+-HTML
+-CSS
 
-# Header 1
-## Header 2
-### Header 3
+## Live Demo
 
-- Bulleted
-- List
+[Live Demo Link](https://natajenkins.github.io/Project-Embedding-Images-and-Video/)
 
-1. Numbered
-2. List
+## Authors
 
-**Bold** and _Italic_ and `Code` text
+👤 **Takhmina175**
 
-[Link](url) and ![Image](src)
-```
+- Github: [@Takhmina175](https://github.com/Takhmina175)
+- Twitter: [@Takhmina](https://twitter.com/Takhmin73630110)
+- Linkedin: [linkedin Profile](https://www.linkedin.com/in/takhmina-makhkamova-7628136b/)
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+👤 **NataJenkins**
 
-### Jekyll Themes
+- Github: [@NataJenkins](https://github.com/Takhmina175)
+- Twitter: [@NataJenkins](https://twitter.com/NataJenkins)
+- Linkedin: [linkedin Profile](https://www.linkedin.com/in/natalia-macias-a11a20187/)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/NataJenkins/Project-Embedding-Images-and-Video/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## 🤝 Contributing
 
-### Support or Contact
+Contributions, issues and feature requests are welcome!
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Feel free to check the [issues page](issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
+
+## 📝 License
+
+This project is [MIT](lic.url) licensed. Youtube Clone
