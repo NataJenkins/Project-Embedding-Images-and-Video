@@ -56,7 +56,14 @@ iframe {
 
   align-items: center;
 }
-
+.iconButton{
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+}
 .search {
   padding: 15px;
   margin: 0 auto;
