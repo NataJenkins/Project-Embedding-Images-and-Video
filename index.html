@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css_files/style.css">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css_files/css/font-awesome.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7bc3c221d9.js" crossorigin="anonymous"></script>
+    <title>YouTube clone webpage</title>
+</head>
+
+<body>
+    <!--NAVBAR-->
+    <nav class="d-flex navbar">
+
+        <div class="d-flex initial">
+            <img src="images/line.png" alt="line">
+            <img src="images/YouTube.png" alt="line">
+        </div>
+
+        <div class="d-flex search">
+            <input type="text" placeholder="Search..">
+            <div class="d-flex searchbtn">
+                <button class="iconButton"><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+
+        <div class="d-flex end">
+            <img src="images/camera.png" alt="line">
+            <img src="images/grid.png" alt="line">
+            <img src="images/bell.png" alt="line">
+        </div>
+    </nav>
+
+    <!--VIDEO PLAYER-->
+    <main class="container">
+
+
+        <div class="mainContent">
+            <div class="video">
+                <iframe class="frame" width="836" height="418"
+                    src="https://www.youtube.com/embed/dO3e_-uDgCo?controls=0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+
+                <div class="video-details">
+                    <header>
+                        <h2 id="videTitle">Fricassee de champignons, mushrooms with herbs and garlic</h2>
+                    </header>
+                </div>
+            </div>
+
+            <div class="hexaColor d-flex container1">
+                <div class="count">7,146 views <span class="fontWeight dot">.</span> Aug 12, 2020
+                </div>
+
+                <div class="list-group">
+                    <button class="iconButton hexaColor list-group-item"><i class="hexaColor fa fa-thumbs-o-up"
+                            aria-hidden="true"></i>&nbsp;
+                        100</button> &nbsp;
+                    <button class="iconButton hexaColor list-group-item"><i class="hexaColor fa fa-thumbs-o-down"
+                            aria-hidden="true"></i>&nbsp; 0</button>&nbsp;
+                    <button class="iconButton hexaColor list-group-item"><i class="hexaColor fa fa-share"
+                            aria-hidden="true"></i>&nbsp;
+                        SHARE</button>&nbsp;
+                    <button class="iconButton hexaColor list-group-item"><i class="hexaColor fa fa-floppy-o"
+                            aria-hidden="true"></i>&nbsp;
+                        SAVE</button>&nbsp;
+                    <button class="iconButton hexaColor list-group-item"><i class="hexaColor fa fa-ellipsis-h"
+                            aria-hidden="true"></i></button>
+                </div>
+            </div>
+            <hr class="line1">
+
+            <div class='container2'>
+
+                <div class="img">
+                    <img src="images/image.png" alt="Youtube_Profile" class="details">
+                </div>
+
+                <div class="fb">
+                    <h4>Famous Youtuber</h4>
+                    <div class="hexaColor fontWeight"> 1Mn Subscribers</div>
+                </div>
+
+                <div class=" button1">
+                    <button class="fontWeight subscribe">SUBSCRIBE</button>
+                </div>
+
+                <div class="container3">
+                    <p class="text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius architecto quod,
+                        dolore sapiente veritatis necessitatibus quae corrupti quos hic consectetur voluptates eveniet
+                        molestiae tempore praesentium, minima cumque accusantium quia. Pariatur. <br> <br>
+                        <a href="#" class="hexaColor fontWeight showMore">SHOW MORE</a>
+                    </p>
+                </div>
+
+            </div>
+            <hr class="line1">
+
+            <div class="d-flex sortComments">
+                <p class="usersComments"> 117 Comments</p>
+                <a class="list-group-item" href="#"><i class="fa fa-sort-amount-desc" aria-hidden="true"></i>&nbsp;
+                    <span class="hexaColor SortBy">SORT BY</span> </a>
+            </div>
+
+
+            <div class="container4">
+                <div class="d-flex addcomments">
+                    <img class="userImage" src="images/image.png" alt="user comment">
+                    <h4 class="hexaColor publicComment">Add a public comment....</h4>
+                </div>
+                <hr class="line2">
+
+                <div class=" d-flex button">
+                    <button type="button" class="cancel">CANCEL</button>
+                    <button type="button" class="comment">COMMENT</button>
+                </div>
+            </div>
+        </div>
+
+
+        <!--SIDEBAR-->
+        <aside class="sidebar">
+
+            <div class="d-flex icons">
+                <div class="upNext">Up next</div>
+                <div class="d-flex hexaColor fontWeight autoplay">AUTOPLAY
+                    <img src="images/toggle-on-solid.svg" alt="toggle-on" width="46" height="22" id="toggle_on">
+                </div>
+            </div>
+
+            <div class="d-flex video_container1">
+                <div class="video_images">
+                    <img src="images/img1.png" alt="YouTubeImage" id="youTubeImage" style="width:168px;height:95px;">
+                </div>
+
+                <div class="video_description">
+                    <p class="fontWeight video_title">COCIDO MADRILEÑO BY SPANISH COOKING</p>
+                    <p class="hexaColor views">Food Wishes <br> 13,334 views.5 years ago
+                    </p>
+                </div>
+
+            </div>
+            <hr>
+
+            <div class="d-flex video_container2">
+                <div class="video_images">
+                    <img src="images/Tutorial1.png" alt="YouTubeImage" class="YouTubeImage"
+                        style="width:168px;height:95px;">
+                </div>
+
+                <div class="video_description">
+                    <p class="fontWeight video_title">Learn CSS Grid in 20 Minutes</p>
+                    <p class="hexaColor views">codeSTACKr <br> 56,514 views.Aug 3,2019
+                    </p>
+                </div>
+            </div>
+
+            <div class="d-flex video_container2">
+                <div class="video_images">
+                    <img src="images/Tutorial2.png" alt="YouTubeImage" class="YouTubeImage"
+                        style="width:168px;height:95px;">
+                </div>
+
+                <div class="video_description">
+                    <p class="fontWeight video_title">Basics of CSS Grid: The Big Picture</p>
+                    <p class="hexaColor views">Layout Land <br> 126,052 views.Feb 13, 2018
+                    </p>
+                </div>
+            </div>
+
+            <div class="d-flex video_container2">
+                <div class="video_images">
+                    <img src="images/Tutorial3.png" alt="YouTubeImage" class="YouTubeImage"
+                        style="width:168px;height:95px;">
+                </div>
+
+                <div class="video_description">
+                    <p class="fontWeight video_title">
+                        How to Create Website Layouts Using CSS Grid </p>
+                    <p class="hexaColor views">Dani Krossing <br> 745,748 views.Jul 30, 2017
+                    </p>
+                </div>
+            </div>
+
+            <div class="d-flex video_container2">
+                <div class="video_images">
+                    <img src="images/Tutorial4.png" alt="YouTubeImage" class="YouTubeImage"
+                        style="width:168px;height:95px;">
+                </div>
+
+                <div class="video_description">
+                    <p class="fontWeight video_title">CSS Positioning Tutorial for Beginners</p>
+                    <p class="hexaColor views">Food Wishes <br> 320,975 views.Dec 4, 2017
+                    </p>
+                </div>
+            </div>
+
+            <div class="d-flex video_container2">
+                <div class="video_images">
+                    <img src="images/Tutorial5.png" alt="YouTubeImage" class="YouTubeImage"
+                        style="width:168px;height:95px;">
+                </div>
+
+                <div class="video_description">
+                    <p class="fontWeight video_title">Web Development Roadmap 2020 {Start Now!}</p>
+                    <p class="hexaColor views">codeSTACKr <br> 550,984 views.Nov 29,2019
+                    </p>
+                </div>
+            </div>
+
+            <div class="d-flex video_container2">
+                <div class="video_images">
+                    <img src="images/Tutorial6.png" alt="YouTubeImage" class="YouTubeImage"
+                        style="width:168px;height:95px;">
+                </div>
+
+                <div class="video_description">
+                    <p class="fontWeight video_title">5 Projects You Can Build In A Week </p>
+                    <p class="hexaColor views">Web Dev Simplified <br> 200,778 views.Jan 21,2020
+                    </p>
+                </div>
+            </div>
+
+            <div class="d-flex video_container2">
+                <div class="video_images">
+                    <img src="images/Tutorial7.png" alt="YouTubeImage" class="YouTubeImage"
+                        style="width:168px;height:95px;">
+                </div>
+
+                <div class="video_description">
+                    <p class="fontWeight video_title">CSS Grid Tutorial | Responsive Crash Course</p>
+                    <p class="hexaColor views">FollowAndrew <br> 75,020,334 views.Feb 23,2018
+                    </p>
+                </div>
+            </div>
+
+
+        </aside>
+
+
+    </main>
+</body>
+
+</html>
